@@ -3,7 +3,7 @@ const add = (num1: number, num2: number) => {
 };
 
 const a = 3;
-const b = 5;
+const b = 6;
 
 const result = add(a, b);
 console.log(result);

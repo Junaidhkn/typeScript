@@ -17,3 +17,7 @@ function printName(obj) {
 // Both OK
 printName({ first: 'Bob' });
 printName({ first: 'Alice', last: 'Alisson' });
+//  Default Parameters in Functions
+const greet = (person = 'Junaid') => {
+    return ` Hi there ${person}`;
+};

@@ -7,3 +7,18 @@ const b = 6;
 
 const result = add(a, b);
 console.log(result);
+
+// Return Type Annotations
+
+function getFavoriteNumber(): number {
+	return 26;
+}
+
+// Optional Properties
+
+function printName(obj: { first: string; last?: string }) {
+	// ...
+}
+// Both OK
+printName({ first: 'Bob' });
+printName({ first: 'Alice', last: 'Alisson' });

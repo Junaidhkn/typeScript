@@ -1,5 +1,6 @@
 function printName(person: { first: string; last: string }): void {
 	console.log(`${person.first}  ${person.last}`);
+	console.log(person);
 }
 
 printName({ first: 'Thomas', last: 'Jenkins' });
@@ -19,3 +20,14 @@ function randomCoordinate(): { x: number; y: number } {
 	return { x: Math.random(), y: Math.random() };
 }
 // console.log(randomCoordinate());
+
+// Type Alliases
+
+type Point = {
+	x: number;
+	y: number;
+};
+
+function Coordinates(): Point {
+	return { x: Math.random(), y: Math.random() };
+}

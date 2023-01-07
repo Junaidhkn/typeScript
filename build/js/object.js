@@ -1,6 +1,7 @@
 "use strict";
 function printName(person) {
     console.log(`${person.first}  ${person.last}`);
+    console.log(person);
 }
 printName({ first: 'Thomas', last: 'Jenkins' });
 // It just Ignores additional arguments provided
@@ -14,4 +15,6 @@ let coordinate = {
 function randomCoordinate() {
     return { x: Math.random(), y: Math.random() };
 }
-// console.log(randomCoordinate());
+function Coordinates() {
+    return { x: Math.random(), y: Math.random() };
+}

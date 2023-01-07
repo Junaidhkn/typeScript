@@ -33,5 +33,11 @@ const mySong = {
         writer: 'Annie',
     },
 };
-console.log(calculatePayput(mySong));
+const earnings = calculatePayput(mySong);
+console.log(earnings);
 printSong(mySong);
+function myCoordinates() {
+    return { x: Math.random(), y: Math.random(), z: Math.random() };
+}
+const threeDimentional = myCoordinates();
+console.log(threeDimentional);

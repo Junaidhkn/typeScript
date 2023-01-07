@@ -78,4 +78,3 @@ function myCoordinates(): coordinate {
 
 const threeDimentional = myCoordinates();
 console.log(threeDimentional);
-y: Math.random();

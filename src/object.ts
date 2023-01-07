@@ -78,3 +78,10 @@ function myCoordinates(): coordinate {
 
 const threeDimentional = myCoordinates();
 console.log(threeDimentional);
+
+//  ReadOnly modifier
+
+type User = {
+	readonly id: number;
+	username: string;
+};

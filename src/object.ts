@@ -60,5 +60,22 @@ const mySong: Song = {
 	},
 };
 
-console.log(calculatePayput(mySong));
+const earnings = calculatePayput(mySong);
+console.log(earnings);
 printSong(mySong);
+
+// Optional Properties
+
+type coordinate = {
+	x: number;
+	y: number;
+	z?: number;
+};
+
+function myCoordinates(): coordinate {
+	return { x: Math.random(), y: Math.random(), z: Math.random() };
+}
+
+const threeDimentional = myCoordinates();
+console.log(threeDimentional);
+y: Math.random();

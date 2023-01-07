@@ -31,3 +31,34 @@ type Point = {
 function Coordinates(): Point {
 	return { x: Math.random(), y: Math.random() };
 }
+
+type Song = {
+	title: string;
+	artist: string;
+	numStreams: number;
+	credits: {
+		producer: string;
+		writer: string;
+	};
+};
+
+function calculatePayput(song: Song): number {
+	return song.numStreams * 0.0033;
+}
+
+function printSong(song: Song): void {
+	console.log(`${song.title} - ${song.artist}`);
+}
+
+const mySong: Song = {
+	title: 'Vari vari',
+	artist: 'Annie Khalid',
+	numStreams: 23343,
+	credits: {
+		producer: 'Annie',
+		writer: 'Annie',
+	},
+};
+
+console.log(calculatePayput(mySong));
+printSong(mySong);

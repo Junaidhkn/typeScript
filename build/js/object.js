@@ -18,3 +18,20 @@ function randomCoordinate() {
 function Coordinates() {
     return { x: Math.random(), y: Math.random() };
 }
+function calculatePayput(song) {
+    return song.numStreams * 0.0033;
+}
+function printSong(song) {
+    console.log(`${song.title} - ${song.artist}`);
+}
+const mySong = {
+    title: 'Vari vari',
+    artist: 'Annie Khalid',
+    numStreams: 23343,
+    credits: {
+        producer: 'Annie',
+        writer: 'Annie',
+    },
+};
+console.log(calculatePayput(mySong));
+printSong(mySong);

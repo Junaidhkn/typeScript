@@ -10,3 +10,8 @@ let coordinate: { x: number; y: number } = {
 };
 
 console.log(coordinate);
+
+function randomCoordinate(): { x: number; y: number } {
+	return { x: Math.random(), y: Math.random() };
+}
+console.log(randomCoordinate());

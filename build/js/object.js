@@ -46,3 +46,8 @@ const user = {
     username: 'Junaid',
 };
 console.log(user);
+const happyFace = {
+    radius: 32,
+    color: 'red',
+};
+console.log(happyFace);

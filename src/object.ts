@@ -91,3 +91,21 @@ const user: User = {
 	username: 'Junaid',
 };
 console.log(user);
+
+// Intersection Types
+type Circle = {
+	radius: number;
+};
+
+type Colorful = {
+	color: string;
+};
+
+type ColorfulCircle = Circle & Colorful;
+
+const happyFace: ColorfulCircle = {
+	radius: 32,
+	color: 'red',
+};
+
+console.log(happyFace);

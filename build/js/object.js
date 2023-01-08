@@ -41,3 +41,8 @@ function myCoordinates() {
 }
 const threeDimentional = myCoordinates();
 console.log(threeDimentional);
+const user = {
+    id: 2323,
+    username: 'Junaid',
+};
+console.log(user);

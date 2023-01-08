@@ -85,3 +85,9 @@ type User = {
 	readonly id: number;
 	username: string;
 };
+
+const user: User = {
+	id: 2323,
+	username: 'Junaid',
+};
+console.log(user);

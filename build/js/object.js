@@ -1,9 +1,9 @@
 "use strict";
-function printName(person) {
-    console.log(`${person.first}  ${person.last}`);
-    console.log(person);
-}
-printName({ first: 'Thomas', last: 'Jenkins' });
+// function printName(person: { first: string; last: string }): void {
+// 	console.log(`${person.first}  ${person.last}`);
+// 	console.log(person);
+// }
+// printName({ first: 'Thomas', last: 'Jenkins' });
 // It just Ignores additional arguments provided
 const all = { first: 'Junaid', last: 'Khan', age: 23 };
 console.log(printName(all));

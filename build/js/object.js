@@ -48,6 +48,12 @@ const user = {
 console.log(user);
 const happyFace = {
     radius: 32,
-    color: 'red',
+    color: 'pink',
+};
+const angryBird = {
+    radius: 23,
+    color: 'Red',
+    bird: true,
 };
 console.log(happyFace);
+console.log(angryBird);

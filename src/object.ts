@@ -105,7 +105,17 @@ type ColorfulCircle = Circle & Colorful;
 
 const happyFace: ColorfulCircle = {
 	radius: 32,
-	color: 'red',
+	color: 'pink',
+};
+
+const angryBird: Circle &
+	Colorful & {
+		bird: true;
+	} = {
+	radius: 23,
+	color: 'Red',
+	bird: true,
 };
 
 console.log(happyFace);
+console.log(angryBird);

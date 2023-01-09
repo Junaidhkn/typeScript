@@ -38,3 +38,13 @@ function calculateTax(price: number | string) {
 
 let results = calculateTax(500);
 console.log(results);
+
+// // Union Types with Arrays
+
+// Note: The following means stuff is either a number or an array of strings
+// const stuff : number | string[]=[]
+// Note: The following means stuff is either an array of numbers or an array of strings
+// const stuff : number[] | string[]=[]
+
+// The following states that an item in an array can be either a string or a number
+const stuff: (number | string)[] = [];

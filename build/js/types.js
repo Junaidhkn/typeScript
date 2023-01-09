@@ -5,7 +5,7 @@ const add = (num1, num2) => {
 const a = 3;
 const b = 6;
 const result = add(a, b);
-console.log(result);
+// console.log(result);
 // Return Type Annotations
 function getFavoriteNumber() {
     return 26;
@@ -31,4 +31,4 @@ const isLeapYear = (year) => {
     }
     return false;
 };
-console.log(isLeapYear(2012));
+// console.log(isLeapYear(2012));

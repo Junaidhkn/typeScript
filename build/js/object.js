@@ -6,7 +6,7 @@
 // printName({ first: 'Thomas', last: 'Jenkins' });
 // It just Ignores additional arguments provided
 const all = { first: 'Junaid', last: 'Khan', age: 23 };
-console.log(printName(all));
+// console.log(printName(all));
 let coordinate = {
     x: 34,
     y: 2,
@@ -22,7 +22,7 @@ function calculatePayput(song) {
     return song.numStreams * 0.0033;
 }
 function printSong(song) {
-    console.log(`${song.title} - ${song.artist}`);
+    // console.log(`${song.title} - ${song.artist}`);
 }
 const mySong = {
     title: 'Vari vari',
@@ -34,18 +34,14 @@ const mySong = {
     },
 };
 const earnings = calculatePayput(mySong);
-console.log(earnings);
-printSong(mySong);
 function myCoordinates() {
     return { x: Math.random(), y: Math.random(), z: Math.random() };
 }
 const threeDimentional = myCoordinates();
-console.log(threeDimentional);
 const user = {
     id: 2323,
     username: 'Junaid',
 };
-console.log(user);
 const happyFace = {
     radius: 32,
     color: 'pink',
@@ -55,5 +51,5 @@ const angryBird = {
     color: 'Red',
     bird: true,
 };
-console.log(happyFace);
-console.log(angryBird);
+// console.log(happyFace);
+// console.log(angryBird);

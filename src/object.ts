@@ -7,7 +7,7 @@
 
 // It just Ignores additional arguments provided
 const all = { first: 'Junaid', last: 'Khan', age: 23 };
-console.log(printName(all));
+// console.log(printName(all));
 
 let coordinate: { x: number; y: number } = {
 	x: 34,
@@ -47,7 +47,7 @@ function calculatePayput(song: Song): number {
 }
 
 function printSong(song: Song): void {
-	console.log(`${song.title} - ${song.artist}`);
+	// console.log(`${song.title} - ${song.artist}`);
 }
 
 const mySong: Song = {
@@ -61,8 +61,8 @@ const mySong: Song = {
 };
 
 const earnings = calculatePayput(mySong);
-console.log(earnings);
-printSong(mySong);
+// console.log(earnings);
+// printSong(mySong);
 
 // Optional Properties
 
@@ -77,7 +77,7 @@ function myCoordinates(): coordinate {
 }
 
 const threeDimentional = myCoordinates();
-console.log(threeDimentional);
+// console.log(threeDimentional);
 
 //  ReadOnly modifier
 
@@ -90,7 +90,7 @@ const user: User = {
 	id: 2323,
 	username: 'Junaid',
 };
-console.log(user);
+// console.log(user);
 
 // Intersection Types
 type Circle = {
@@ -117,5 +117,5 @@ const angryBird: Circle &
 	bird: true,
 };
 
-console.log(happyFace);
-console.log(angryBird);
+// console.log(happyFace);
+// console.log(angryBird);

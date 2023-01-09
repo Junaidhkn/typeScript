@@ -7,4 +7,6 @@ const activeUsers = [];
 // // Array types
 const users = [];
 users.push('Junaid', '21323', 'true');
-// console.log(users);
+const coords = [];
+coords.push({ x: 324, y: 323 }, { x: 3, y: 73 });
+// console.log(coords);

@@ -6,9 +6,9 @@ const activeUsers = [];
 // console.log(activeUsers);
 // // Array types
 const users = [];
-users.push('Junaid', '21323', 'true');
+users.push( 'Junaid', '21323', 'true' );
 const coords = [];
-coords.push({ x: 324, y: 323 }, { x: 3, y: 73 });
+coords.push( { x: 324, y: 323 }, { x: 3, y: 73 } );
 // console.log(coords);
 // // TwoDimentional Array
 const board = [
@@ -16,4 +16,4 @@ const board = [
     ['X', 'O', 'X'],
     ['X', 'O', 'X'],
 ];
-console.log(board);
+// console.log(board);

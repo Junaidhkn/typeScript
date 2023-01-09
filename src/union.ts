@@ -48,3 +48,20 @@ console.log(results);
 
 // The following states that an item in an array can be either a string or a number
 const stuff: (number | string)[] = [];
+
+//  // literal types
+
+//  Literal Types are not just types-but the values themselves too!
+
+let zero: 0 = 0;
+// zero = 3;  It's Not Possible
+
+//  Example
+
+const giveAnswer = (answer: 'yes' | 'no' | 'maybe') => {
+	return `The Answer is ${answer}`;
+};
+giveAnswer('no');
+giveAnswer('yes');
+giveAnswer('maybe');
+// giveAnswer('Not possible!')

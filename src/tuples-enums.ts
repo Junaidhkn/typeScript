@@ -24,3 +24,27 @@ const responses: HTTPResponse[] = [
 ];
 
 // console.log(responses);
+// ```````````````````````````````````````~~~~~~~~~~~~~~~~~~~~~~~~~~~``````````````````````````
+// // Enums
+// Used to define a set of named constants, for the values that are repetitive
+
+// enum OrderStatus {
+// 	pending, // 0
+// 	shipped, // 1
+// 	delivered, // 2
+// 	returned, // 3
+// }
+
+// const Status = OrderStatus.delivered;
+
+// console.log(Status);
+//  Const ENUM
+const enum OrderedStatus {
+	pending, // 0
+	shipped, // 1
+	delivered, // 2
+	returned, // 3
+}
+
+const Status = OrderedStatus.delivered;
+console.log(Status);

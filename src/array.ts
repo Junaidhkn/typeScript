@@ -22,3 +22,11 @@ const coords: PointA[] = [];
 coords.push({ x: 324, y: 323 }, { x: 3, y: 73 });
 
 // console.log(coords);
+
+// // TwoDimentional Array
+const board: string[][] = [
+	['X', 'O', 'X'],
+	['X', 'O', 'X'],
+	['X', 'O', 'X'],
+];
+console.log(board);

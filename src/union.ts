@@ -37,7 +37,7 @@ function calculateTax(price: number | string) {
 }
 
 let results = calculateTax(500);
-console.log(results);
+// console.log(results);
 
 // // Union Types with Arrays
 

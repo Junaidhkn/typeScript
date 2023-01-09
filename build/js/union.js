@@ -20,7 +20,7 @@ function calculateTax(price) {
     return `Total Price: ${price + tax} as price:${price} with including tax:${tax}`;
 }
 let results = calculateTax(500);
-console.log(results);
+// console.log(results);
 // // Union Types with Arrays
 // Note: The following means stuff is either a number or an array of strings
 // const stuff : number | string[]=[]

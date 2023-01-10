@@ -23,5 +23,13 @@ const shoe = {
         return newPrice;
     },
 };
-console.log(shoe);
-console.log(shoe.discount(25));
+const Item = {
+    name: 'nike',
+    price: 125,
+    discount: (amount) => {
+        const newPrice = shoe.price - amount;
+        return newPrice;
+    },
+    category: 'Shoes',
+};
+console.log(Item);

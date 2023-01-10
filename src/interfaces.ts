@@ -60,6 +60,28 @@ const shoe: Product = {
 		return newPrice;
 	},
 };
-console.log(shoe);
+// console.log(shoe);
 
-console.log(shoe.discount(25));
+// console.log(shoe.discount(25));
+
+// // Types Vs Interfaces
+
+// ~~~  While Using Interfaces, we can Redeclare/Reassign the Properies and methods, but with types it's not possible
+
+// Extending Interfaces
+
+interface Collection extends Product {
+	category: string;
+}
+
+const Item: Collection = {
+	name: 'nike',
+	price: 125,
+	discount: (amount: number) => {
+		const newPrice = shoe.price - amount;
+		return newPrice;
+	},
+	category: 'Shoes',
+};
+
+console.log(Item);

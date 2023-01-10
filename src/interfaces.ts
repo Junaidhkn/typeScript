@@ -10,10 +10,56 @@ interface Person {
 	nickName?: string;
 }
 
+// const me: Person = {
+// 	id: 2323,
+// 	firstName: 'Junaid',
+// 	lastName: 'Khan',
+// 	// nickName: 'sadfsf',
+// };
+// console.log(me);
+
+// // Interface Methods
+
+interface Person {
+	readonly id: number;
+	firstName: string;
+	lastName: string;
+	nickName?: string;
+	sayHi: () => string;
+	sayHiName: () => string;
+}
+
 const me: Person = {
 	id: 2323,
 	firstName: 'Junaid',
 	lastName: 'Khan',
-	// nickName: 'sadfsf',
+	sayHiName: () => {
+		return `name ${me.firstName}`;
+	},
+	sayHi: () => {
+		return 'Hello';
+	},
 };
+
 console.log(me);
+
+console.log(me.sayHi());
+console.log(me.sayHiName());
+
+interface Product {
+	name: string;
+	price: number;
+	discount: (amount: number) => number;
+}
+
+const shoe: Product = {
+	name: 'nike',
+	price: 125,
+	discount: (amount: number) => {
+		const newPrice = shoe.price - amount;
+		return newPrice;
+	},
+};
+console.log(shoe);
+
+console.log(shoe.discount(25));

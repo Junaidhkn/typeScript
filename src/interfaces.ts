@@ -85,3 +85,10 @@ const Item: Collection = {
 };
 
 console.log(Item);
+
+// // Extents Multiple Interfaces
+// Syntax
+
+// interface Collection extends Product,Person{
+
+// }
